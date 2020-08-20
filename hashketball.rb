@@ -217,33 +217,8 @@ def big_shoe_rebounds
     all_players.each do |player|
       if shoe < player[:shoe]
         rebounds = player[:rebounds]
-  binding.pry
+        shoe = player[:shoe]
 
       end
     end
 end
-
-
-#   max_shoe_size = 0
-#   while max_shoe_size < shoe.length do
-# # #   if max_shoe_size < shoe[count]
-# # #       max_shoe_size = shoe[count]
-#    binding.pry
-# #   end
-#   end
-#  max_shoe_size
-
-# row_index = 0
-# while all_players.count do
-#   element_index = 0
-#   max_shoe_size = 0
-#   while element_index < all_players[row_index].count do
-#
-#
-#
-#   binding.pry
-#
-#
-#   end
-# end
-#binding.pry
